@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AirdropTactic.cpp" />
+    <ClCompile Include="AstarPath.cpp" />
+    <ClCompile Include="AttackManager.cpp" />
+    <ClCompile Include="BattleArmy.cpp" />
+    <ClCompile Include="BattleTactic.cpp" />
+    <ClCompile Include="BuildingManager.cpp" />
+    <ClCompile Include="BuildOrderQueue.cpp" />
+    <ClCompile Include="BWEM\src\area.cpp" />
+    <ClCompile Include="BWEM\src\base.cpp" />
+    <ClCompile Include="BWEM\src\bwapiExt.cpp" />
+    <ClCompile Include="BWEM\src\bwem.cpp" />
+    <ClCompile Include="BWEM\src\cp.cpp" />
+    <ClCompile Include="BWEM\src\examples.cpp" />
+    <ClCompile Include="BWEM\src\exampleWall.cpp" />
+    <ClCompile Include="BWEM\src\graph.cpp" />
+    <ClCompile Include="BWEM\src\gridMap.cpp" />
+    <ClCompile Include="BWEM\src\map.cpp" />
+    <ClCompile Include="BWEM\src\mapDrawer.cpp" />
+    <ClCompile Include="BWEM\src\mapImpl.cpp" />
+    <ClCompile Include="BWEM\src\mapPrinter.cpp" />
+    <ClCompile Include="BWEM\src\neutral.cpp" />
+    <ClCompile Include="BWEM\src\tiles.cpp" />
+    <ClCompile Include="BWEM\src\utils.cpp" />
+    <ClCompile Include="BWEM\src\winutils.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="DefendTactic.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="HydraliskArmy.cpp" />
+    <ClCompile Include="HydraliskTactic.cpp" />
+    <ClCompile Include="InformationManager.cpp" />
+    <ClCompile Include="LurkerArmy.cpp" />
+    <ClCompile Include="MutaliskArmy.cpp" />
+    <ClCompile Include="MutaliskHarassTactic.cpp" />
+    <ClCompile Include="Options.cpp" />
+    <ClCompile Include="Overkill.cpp" />
+    <ClCompile Include="OverLordArmy.cpp" />
+    <ClCompile Include="PatrolTactic.cpp" />
+    <ClCompile Include="ProductionManager.cpp" />
+    <ClCompile Include="ScourgeArmy.cpp" />
+    <ClCompile Include="ScoutTactic.cpp" />
+    <ClCompile Include="StrategyManager.cpp" />
+    <ClCompile Include="TacticManager.cpp" />
+    <ClCompile Include="testMain.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="WorkerData.cpp" />
+    <ClCompile Include="WorkerManager.cpp" />
+    <ClCompile Include="ZerglingArmy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirdropTactic.h" />
+    <ClInclude Include="AstarPath.h" />
+    <ClInclude Include="AttackManager.h" />
+    <ClInclude Include="BattleArmy.h" />
+    <ClInclude Include="BattleTactic.h" />
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="BuildingManager.h" />
+    <ClInclude Include="BuildOrderQueue.h" />
+    <ClInclude Include="BWEM\src\area.h" />
+    <ClInclude Include="BWEM\src\base.h" />
+    <ClInclude Include="BWEM\src\bwapiExt.h" />
+    <ClInclude Include="BWEM\src\bwem.h" />
+    <ClInclude Include="BWEM\src\cp.h" />
+    <ClInclude Include="BWEM\src\defs.h" />
+    <ClInclude Include="BWEM\src\examples.h" />
+    <ClInclude Include="BWEM\src\exampleWall.h" />
+    <ClInclude Include="BWEM\src\graph.h" />
+    <ClInclude Include="BWEM\src\gridMap.h" />
+    <ClInclude Include="BWEM\src\map.h" />
+    <ClInclude Include="BWEM\src\mapDrawer.h" />
+    <ClInclude Include="BWEM\src\mapImpl.h" />
+    <ClInclude Include="BWEM\src\mapPrinter.h" />
+    <ClInclude Include="BWEM\src\neutral.h" />
+    <ClInclude Include="BWEM\src\tiles.h" />
+    <ClInclude Include="BWEM\src\utils.h" />
+    <ClInclude Include="BWEM\src\winutils.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="DefendTactic.h" />
+    <ClInclude Include="DevourerArmy.h" />
+    <ClInclude Include="exceptionHandler.h" />
+    <ClInclude Include="GuardianArmy.h" />
+    <ClInclude Include="HydraliskArmy.h" />
+    <ClInclude Include="HydraliskTactic.h" />
+    <ClInclude Include="InformationManager.h" />
+    <ClInclude Include="LurkerArmy.h" />
+    <ClInclude Include="MetaType.h" />
+    <ClInclude Include="MutaliskArmy.h" />
+    <ClInclude Include="MutaliskHarassTactic.h" />
+    <ClInclude Include="Options.h" />
+    <ClInclude Include="Overkill.h" />
+    <ClInclude Include="OverLordArmy.h" />
+    <ClInclude Include="PatrolTactic.h" />
+    <ClInclude Include="ProductionManager.h" />
+    <ClInclude Include="ScourgeArmy.h" />
+    <ClInclude Include="ScoutTactic.h" />
+    <ClInclude Include="StrategyManager.h" />
+    <ClInclude Include="TacticManager.h" />
+    <ClInclude Include="testMain.h" />
+    <ClInclude Include="UltraliskArmy.h" />
+    <ClInclude Include="UnitState.h" />
+    <ClInclude Include="WorkerData.h" />
+    <ClInclude Include="WorkerManager.h" />
+    <ClInclude Include="ZerglingArmy.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{FE4891F5-5CB4-4B95-BE7B-453E9A7FCC50}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LastOrder</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Release</OutDir>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;LASTORDER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;LASTORDER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;LASTORDER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>$(BWAPI_DIR)/include;../zmq/zmq_header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(BWAPI_DIR)/lib/BWAPI.lib;../zmq/zmq_lib/libzmq_lastorder.lib;dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;LASTORDER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

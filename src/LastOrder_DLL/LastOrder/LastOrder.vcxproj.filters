@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Attack">
+      <UniqueIdentifier>{425840f3-aed2-4ff4-9ae4-2b98e95769e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BWEM">
+      <UniqueIdentifier>{23377b1b-9bcb-4950-81fb-a19d6d6dbcee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Macro">
+      <UniqueIdentifier>{a1b0a9d7-b540-47cf-a5e5-0aae7d8f3e5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BWEM\src\area.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\base.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\bwapiExt.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\bwem.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\cp.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\examples.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\exampleWall.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\graph.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\gridMap.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\map.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\mapDrawer.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\mapImpl.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\mapPrinter.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\neutral.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\tiles.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\utils.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="BWEM\src\winutils.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="AirdropTactic.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="AstarPath.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackManager.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleArmy.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleTactic.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="DefendTactic.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="HydraliskArmy.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="HydraliskTactic.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="LurkerArmy.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="MutaliskArmy.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="MutaliskHarassTactic.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="OverLordArmy.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="PatrolTactic.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="ScourgeArmy.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoutTactic.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="TacticManager.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="ZerglingArmy.cpp">
+      <Filter>Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingManager.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildOrderQueue.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="InformationManager.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="Overkill.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductionManager.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyManager.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="testMain.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerData.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerManager.cpp">
+      <Filter>Macro</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BWEM\src\area.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\base.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\bwapiExt.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\bwem.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\cp.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\defs.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\examples.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\exampleWall.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\graph.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\gridMap.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\map.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\mapDrawer.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\mapImpl.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\mapPrinter.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\neutral.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\tiles.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\utils.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="BWEM\src\winutils.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="AirdropTactic.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="AstarPath.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackManager.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleArmy.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleTactic.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="DefendTactic.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="DevourerArmy.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardianArmy.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="HydraliskArmy.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="HydraliskTactic.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="LurkerArmy.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="MutaliskArmy.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="MutaliskHarassTactic.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="OverLordArmy.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="PatrolTactic.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="ScourgeArmy.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoutTactic.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="TacticManager.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="UltraliskArmy.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitState.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="ZerglingArmy.h">
+      <Filter>Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingManager.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildOrderQueue.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptionHandler.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="InformationManager.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaType.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Overkill.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductionManager.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyManager.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="testMain.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerData.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerManager.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
