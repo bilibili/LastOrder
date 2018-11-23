@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>StarCraft AI Competition Results</title>
+<meta charset="UTF-8">
+<script src="javascript/jquery-1.10.2.min.js"></script>
+<script src="javascript/jquery.tablesorter.js"></script>
+<script src="results/results_summary_json.js"></script>
+<script src="javascript/results_summary.js"></script>
+<link rel="stylesheet" href="javascript/themes/blue/style.css">
+<link rel="stylesheet" href="css/style.css">
+<script> $(function() { $("#resultsTable").tablesorter(); });</script>
+<script> $(function() { $("#resultsPairTable").tablesorter(); });</script>
+<script> $(function() { $("#resultsMapTable").tablesorter(); });</script> 
+</head>
+<p>Win Percentage Over Time Graph: <a href="win_percentage_graph.html">html5</a> </p>
+<p>Win Percentage Per Round Graph: <a href="win_percentage_by_round_graph.html">html5</a> </p>
+<p>Detailed Game Results: <a href="results.html">html table</a> or <a href="results/detailed_results.txt">plaintext</a> <span id=plainTextSize></span></p>
+
+<table id="resultsTable" class="tablesorter">
+	<thead><tr>
+		<th>Bot</th>
+		<th>Games</th>
+		<th>Win</th>
+		<th>Loss</th>
+		<th>Win %</th>
+		<th>AvgTime</th>
+		<th>Game Timeout</th>
+		<th>Crash</th>
+		<th>Frame Timeout</th>
+	</tr></thead>
+	<tbody></tbody>	
+	<tfoot><tr>
+		<td>Total</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr></tfoot>
+</table>
+
+<table id="resultsPairTable" class="tablesorter">
+	<thead><tr>
+		<th>Bot</th>
+		<th>Win %</th>
+	</tr></thead>
+	<tbody></tbody>
+</table>
+
+<table id="resultsMapTable" class="tablesorter">
+	<thead><tr>
+		<th>Bot</th>
+	</tr></thead>
+	<tbody></tbody>
+</table>
+
+<p id="footer">Last updated: </p>
+</body>
+</html>

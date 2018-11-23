@@ -1,0 +1,8 @@
+<!-- put this file under <starcraft>/bwapi-data/AI -->
+
+<!-- Nash Equilibrium strategy for Skynet, Xelnaga and NUSBot, according to AIIDE 2015 statistics -->
+<strategy>
+	<behavior name="Skynet" probability="0.56"/>
+	<behavior name="Xelnaga" probability="0.254"/>
+	<behavior name="NUSBot" probability="0.186"/>
+</strategy>

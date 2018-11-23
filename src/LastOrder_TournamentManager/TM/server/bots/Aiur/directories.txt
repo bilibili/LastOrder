@@ -1,0 +1,15 @@
+bwapi-data\\read\\
+bwapi-data\\write\\
+bwapi-data\\AI\\
+
+### This file should be copied into the bwapi-data directory.
+
+### The first line is the path for read-only files
+### The second line is the path for write-only files
+### The third line is the path where the AI dll and off-game read-only files are
+
+### If you modify this file, please follow these rules:
+###  - always double-backslash the separators this way: parent_dir\\sub_dir\\sub_sub_dir\\
+###  - finish each path with a double-backslash \\
+###  - define write and read paths on the 2 first lines only, in the following order: read then write.
+###  - each path should NOT be more than 255-character long, double-backslashes included.

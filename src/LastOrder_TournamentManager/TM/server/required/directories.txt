@@ -1,0 +1,10 @@
+bwapi-data\\read\\
+bwapi-data\\write\\
+
+### This file should be copied into the bwapi-data directory.
+
+### If you modify this file, please follow these rules:
+###  - always double-backslash the separators this way: parent_dir\\sub_dir\\sub_sub_dir\\
+###  - finish each path with a double-backslash \\
+###  - define write and read paths on the 2 first lines only, in the following order: read then write.
+###  - each path should NOT be more than 255-character long, double-backslashes included.

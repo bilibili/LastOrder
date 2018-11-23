@@ -1,0 +1,8 @@
+<!-- put this file under <starcraft>/bwapi-data/AI -->
+
+<!-- Select Skynet, Xelnaga or NUSBot with uniform probability -->
+<strategy>
+	<behavior name="Skynet" probability="0.333"/>
+	<behavior name="Xelnaga" probability="0.333"/>
+	<behavior name="NUSBot" probability="0.334"/>
+</strategy>

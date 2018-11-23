@@ -1,0 +1,48 @@
+---------------------------------------------------------------------------------------------------
+Map Name            Players         URL  (add .jpg for image of map)
+---------------------------------------------------------------------------------------------------
+
+Benzene             2               http://www.teamliquid.net/tlpd/korean/maps/407_Benzene
+Heartbreak Ridge    2               http://www.teamliquid.net/tlpd/korean/maps/199_Heartbreak_Ridge
+Destination         2               http://www.teamliquid.net/tlpd/korean/maps/188_Destination
+
+Aztec               3               http://www.teamliquid.net/tlpd/korean/maps/402_Aztec
+Tau Cross           3               http://www.teamliquid.net/tlpd/korean/maps/3_Tau_Cross
+
+Empire of the Sun   4               http://www.teamliquid.net/tlpd/korean/maps/406_Empire_of_the_Sun
+Andromeda           4               http://www.teamliquid.net/tlpd/korean/maps/175_Andromeda
+Circuit Breaker     4               http://www.teamliquid.net/tlpd/korean/maps/404_Circuit_Breaker
+Fortress            4               http://www.teamliquid.net/tlpd/korean/maps/390_Fortress
+Python              4               http://www.teamliquid.net/tlpd/korean/maps/147_Python
+
+---------------------------------------------------------------------------------------------------
+
+Statistics:
+
+                    T	v   Z		        Z	v   P		        P	v   T
+                    ------------------------------------------------------------
+Benzene             24	    17		        27	    28		        19	    20
+Heartbreak Ridge    68	    72		        98	    75		        91	    63
+Destination         148	    137		        170	    128		        181	    146
+Aztec               23	    36		        56	    56		        33	    18
+Tau Cross           66	    67		        63	    64		        64	    59
+Empire of the Sun   43	    42		        28	    28		        45	    43
+Andromeda           50	    66		        89	    63		        67	    50
+Circuit Breaker     40	    43		        30	    25		        42	    38
+Fortress            18	    10		        12	    6		        22	    21
+Python              181	    147		        132	    113		        102	    122
+
+Total: 3835 Games
+
+Race        Wins        Win %
+------------------------------------
+Terran      1241	    0.323598435
+Zerg        1342	    0.349934811
+Protoss     1252	    0.326466754
+
+---------------------------------------------------------------------------------------------------
+
+Removed (for pathfinding issues, May 23 2011):
+
+Blue Storm          2               http://www.teamliquid.net/tlpd/korean/maps/159_Blue_Storm
+Central Plains      3               http://www.teamliquid.net/tlpd/korean/maps/405_Central_Plains

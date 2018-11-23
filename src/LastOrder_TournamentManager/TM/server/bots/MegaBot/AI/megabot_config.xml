@@ -1,0 +1,10 @@
+<!-- put this file under <starcraft>/bwapi-data/AI -->
+<config>
+	<strategy value="probabilistic" />
+	<strategy-file value="megabot_protoss-uniform.xml" />
+	<match-output value="output.xml" />
+	<alpha value="0.2" /> <!-- learning rate for strategy value update -->
+	<epsilon value="0.15" /> <!-- exploration coefficient -->
+	<speed value="0" />
+	<gui value="true" />
+</config>
