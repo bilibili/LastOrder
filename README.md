@@ -22,7 +22,8 @@ Actor also can using pre-trained model data to run independently without Learner
 * Copy pre-trained model data to AI\saved_model
 
 ### Learner Requirements
-* Python 3.6 with tensorflow and zmq 
+* Python 3.6 with tensorflow and zmq
+* modified version of [StarcraftAITournamentManager](https://github.com/davechurchill/StarcraftAITournamentManager) (in src/LastOrder_TournamentManager/TM/)
 
 
 
