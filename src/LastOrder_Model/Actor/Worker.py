@@ -48,9 +48,9 @@ class Worker:
             else:
                 total_actor_count = 1000
                 ip_postfix = int(local_ip.split('.')[2]) * 256 + int(local_ip.split('.')[3]) - 26
-                self.explore_rate = int(math.pow(0.05, 1 + (ip_postfix / total_actor_count) * 7) * 100)
-                if ip_postfix % 2 == 0:
-                    self.explore_rate = max(self.explore_rate, 1)
+                self.explore_rate = int(math.pow(0.4, 1 + (ip_postfix / total_actor_count) * 7) * 100)
+                #if ip_postfix % 2 == 0:
+                    #self.explore_rate = max(self.explore_rate, 1)
         else:
             self.explore_rate = 50
 
