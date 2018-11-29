@@ -6,7 +6,7 @@ LastOrder use a pre-trained model to do macro action selection during game. The 
 The detail info can be found in:
 
 ## Installation
-LastOrder comprise of two parts
+LastOrder comprise of two parts:
 * Actor. running the StarCraft client and processing messages with mode. 
   * In training mode, actor periodically receive updated model from learner. 
   * In evaluation mode, actor load the local pre-trained model and run independently without learner.
