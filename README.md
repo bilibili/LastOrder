@@ -1,9 +1,9 @@
 # LastOrder
-LastOrder is a StarCraft AI bot developed by Bilibili AI Lab.
+LastOrder is a StarCraft AI bot developed by Bilibili AI Lab.  
+LastOrder uses a pre-trained model to do macro action selection during game. The model combines APE-X DQN with LSTM and is trained distributively on cluster.  
 
-LastOrder uses a pre-trained model to do macro action selection during game. The model combines APE-X DQN with LSTM and is trained distributively on cluster.
-
-The detailed info can be found in:
+The detailed info can be found in:  
+[Macro action selection with deep reinforcement learning in StarCraft](https://arxiv.org/abs/1812.00336)
 
 ## Installation
 LastOrder comprises of two parts:
