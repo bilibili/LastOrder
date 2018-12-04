@@ -24,7 +24,7 @@ LastOrder comprises of two parts:
 
 ### Learner Requirements
 * Python 3.6 with tensorflow and zmq
-* modified version of [StarcraftAITournamentManager](https://github.com/davechurchill/StarcraftAITournamentManager) (in src/LastOrder_TournamentManager/TM/)
+* [StarcraftAITournamentManager](https://github.com/davechurchill/StarcraftAITournamentManager)
 
 
 
