@@ -1,1 +1,0 @@
-java -jar results_parser.jar server_settings.json
